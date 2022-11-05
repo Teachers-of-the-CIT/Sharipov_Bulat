@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\App.xaml
-3-1666114218
+41340089534
 22035508349
-17472697076
+181044755480
 181609733451
-MainWindow.xaml;Windows\CreateProductWindow.xaml;Windows\ProductsWindow.xaml;
+MainWindow.xaml;Windows\AuthorizeWindow.xaml;Windows\CreateProductWindow.xaml;Windows\ProductsWindow.xaml;
 
-False
+True
 

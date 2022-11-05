@@ -24,3 +24,5 @@ D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\obj\Debug\Perfumer
 D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\obj\Debug\PerfumerService.pdb
 D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\obj\Debug\Windows\CreateProductWindow.g.cs
 D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\obj\Debug\Windows\CreateProductWindow.baml
+D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\obj\Debug\Windows\AuthorizeWindow.g.cs
+D:\КАИ\4 курс\демо\PerfumerService\PerfumerService\obj\Debug\Windows\AuthorizeWindow.baml

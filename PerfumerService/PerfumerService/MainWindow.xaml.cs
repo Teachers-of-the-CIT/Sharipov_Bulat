@@ -21,6 +21,7 @@ namespace PerfumerService
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Users _user;
         public MainWindow()
         {
             InitializeComponent();
@@ -30,6 +31,23 @@ namespace PerfumerService
         {
             var window = new ProductsWindow();
             window.Show();
+        }
+
+        private void authorizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new AuthorizeWindow();
+            var result = window.ShowDialog();
+
+            if ((bool) result)
+            {
+                _user = window.User;
+            }
+
+            if (_user != null)
+            {
+                authorizationInfo.Text = "Вы вошли в систему как " + _user.Role;
+                authorizeButton.Visibility = Visibility.Hidden;
+            }  
         }
     }
 }

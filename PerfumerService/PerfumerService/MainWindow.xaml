@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel>
+            <Button x:Name="productsButton" Click="productsButton_Click" Width="100" Height="100" Content="Просмотр товаров"/>
+            <Button x:Name="createProductButton" Click="createProductButton_Click" Width="100" Height="100" Content="Добавить товар"/>
+        </StackPanel> 
     </Grid>
 </Window>

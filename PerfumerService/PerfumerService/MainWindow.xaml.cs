@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PerfumerService.Windows;
 
 namespace PerfumerService
 {
@@ -23,6 +24,18 @@ namespace PerfumerService
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void productsButton_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new ProductsWindow();
+            window.Show();
+        }
+
+        private void createProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            var window = new CreateProductWindow();
+            window.ShowDialog();
         }
     }
 }

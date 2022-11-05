@@ -31,11 +31,5 @@ namespace PerfumerService
             var window = new ProductsWindow();
             window.Show();
         }
-
-        private void createProductButton_Click(object sender, RoutedEventArgs e)
-        {
-            var window = new CreateProductWindow();
-            window.ShowDialog();
-        }
     }
 }

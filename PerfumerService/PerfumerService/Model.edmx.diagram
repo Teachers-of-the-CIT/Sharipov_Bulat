@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1bdc0f29e9324b39b71920a792151da2" Name="Diagram1">
+        <EntityTypeShape EntityType="PerfumerModel.Category" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PerfumerModel.IssuePoint" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PerfumerModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PerfumerModel.OrderProduct" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PerfumerModel.Product" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PerfumerModel.Users" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <AssociationConnector Association="PerfumerModel.FK__Product__Categor__3E1D39E1" ManuallyRouted="false" />
+        <AssociationConnector Association="PerfumerModel.FK__Order__IssuePoin__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="PerfumerModel.FK__Order__ClientId__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="PerfumerModel.FK__OrderProd__Order__42E1EEFE" ManuallyRouted="false" />
+        <AssociationConnector Association="PerfumerModel.FK__OrderProd__Produ__43D61337" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
